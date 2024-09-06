@@ -1,0 +1,178 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Arial', sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #8deefb;
+ }
+
+ /* style ukuran format login */
+ .format-login {
+     background-color: #82cdd8;
+     padding: 50px;
+     border-radius: 10px;
+     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+     width: 500px;
+     text-align: center;
+ }
+
+ h2 {
+     margin-bottom: 10px;
+     color: #024d78;
+     font-size: 24px;
+ }
+
+ p {
+     color: #666;
+     margin-bottom: 20px;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .input-container {
+     position: relative;
+     margin-bottom: 15px;
+ }
+
+ input {
+     padding: 12px;
+     width: 100%;
+     border: 1px solid #1a5fae;
+     font-size: 16px;
+     background-color: #ffffff;
+ }
+
+
+ button {
+     padding: 12px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+ }
+ 
+ .social-login {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+ }
+
+ .separator {
+     margin: 20px 0;
+     font-size: 14px;
+     color: #666;
+     position: relative;
+ }
+
+ .separator::before,
+ .separator::after {
+     content: "";
+     position: absolute;
+     top: 50%;
+     width: 40%;
+     height: 1px;
+     background-color: #2177a6;
+ }
+
+ .separator::before {
+     left: 0;
+ }
+
+ .separator::after {
+     right: 0;
+ }
+
+ a.forgot-password {
+     font-size: 14px;
+     color: #1a73e8;
+     text-decoration: none;
+     margin-bottom: 15px;
+     display: block;
+ }
+
+ a.forgot-password:hover {
+     text-decoration: underline;
+ }
+
+ /* semua button login, fb, da ig */
+ .btn-login,
+ .btn-facebook,
+ .btn-google {
+     width: 40%;
+     padding: 10px;
+     margin: 8px 0;
+     border: 1px solid #1a73e8;
+     border-radius: 5px;
+     font-size: 13px;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+/* style button login */
+ .login-btn {
+     background-color: #1b85a2;
+     color: rgb(0, 51, 47);
+ }
+ .login-btn:hover {
+     background-color: #0f8c93;
+ }
+
+/* style button facebok */
+ .btn-facebook {
+     background-color: #9cd0d3;
+     color: white;
+ }
+ .btn-facebook:hover {
+     background-color: #37d6ef;
+ }
+
+/* style button gogle */
+ .btn-google {
+     background-color: #9cd0d3;
+     color: white;
+ }
+ .btn-google:hover {
+     background-color: #37d6ef;
+ }
+
+ /* ukuran button  */
+ .btn-facebook img,
+ .btn-google img {
+     width: 30px;
+     height: 30px;
+     margin-right: 10px;
+ }
+
+ /* bagian class signup-text */
+ .signup-text {
+     margin-top: 20px;
+     font-size: 14px;
+ }
+ .signup-text a {
+     color: #1a73e8;
+     text-decoration: none;
+ }
+ .signup-text a:hover {
+     text-decoration: underline;
+ }
+
+ .login-btn:hover,
+ .google-login-btn:hover,
+ .facebook-login-btn:hover {
+     opacity: 0.9;
+     transition: 0.3s;
+ }
+
+ 
